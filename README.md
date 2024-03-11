@@ -9,4 +9,13 @@ Daftar tugas / branch
     7. Tugas-finalProject
 
   Daftar perintah GIT
-  ...
+$ git branch namabranch (contoh: Tugas-git)
+$ git checkout namabranch
+$ touch namafile.txt (membuat file txt baru yang kosong)
+$ nano namafile.txt (mengedit file), lalu save dengan ctrl+x lalu klik Y
+$ git add namafile.txt
+$ git commit -m "judul commit"
+$ git checkout main
+$ git merge namabranch
+$ git push
+
